@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Notebook</string>
+    <string name="add_note">Add Note</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_content">Note Content</string>
+    <string name="text_note">Text</string>
+    <string name="location_note">Location</string>
+    <string name="photo_note">Photo</string>
+    <string name="location_name">Location Name</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="save_note">Save Note</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="camera_permission_required">Camera permission is required to take photos</string>
+    <string name="location_permission_required">Location permission is required to get your current location</string>
+    <string name="storage_permission_required">Storage permission is required to save photos</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="error_saving_note">Error saving note</string>
+    <string name="note_saved">Note saved successfully</string>
+    <string name="error_loading_photos">Error loading photos</string>
+    <string name="error_getting_location">Error getting location</string>
+    <string name="no_notes_yet">No notes yet. Tap the + button to add your first note!</string>
+    <string name="filter_all">All</string>
+    <string name="filter_photos">Photos</string>
+    <string name="filter_locations">Locations</string>
+    <string name="filter_text">Text</string>
+    <string name="map_view">Map View</string>
+    <string name="list_view">List View</string>
+</resources>
