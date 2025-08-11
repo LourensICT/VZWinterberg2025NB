@@ -1,0 +1,39 @@
+{
+  "name": "notebook-android-app",
+  "version": "1.0.0",
+  "description": "Een moderne Android notitieboek app geschreven in Kotlin",
+  "main": "index.js",
+  "scripts": {
+    "setup": "echo 'Setting up Android development environment...' && ./setup-android.sh",
+    "clean": "echo 'Cleaning project...' && rm -rf .gradle build app/build",
+    "build": "echo 'Building Android project...' && ./gradlew build",
+    "install-deps": "echo 'Installing Android dependencies...' && ./gradlew --refresh-dependencies",
+    "test": "echo 'Running tests...' && ./gradlew test",
+    "lint": "echo 'Running linting...' && ./gradlew lint",
+    "assemble": "echo 'Assembling APK...' && ./gradlew assembleDebug",
+    "install": "echo 'Installing APK to device...' && ./gradlew installDebug",
+    "help": "echo 'Available commands:' && echo '  npm run setup      - Setup Android development environment' && echo '  npm run clean      - Clean project build files' && echo '  npm run build      - Build the Android project' && echo '  npm run install-deps - Install/refresh dependencies' && echo '  npm run test       - Run tests' && echo '  npm run lint       - Run linting' && echo '  npm run assemble    - Build APK' && echo '  npm run install     - Install APK to device'"
+  },
+  "keywords": [
+    "android",
+    "kotlin",
+    "notebook",
+    "notes",
+    "mobile",
+    "app"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/notebook-android.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/notebook-android/issues"
+  },
+  "homepage": "https://github.com/yourusername/notebook-android#readme"
+}

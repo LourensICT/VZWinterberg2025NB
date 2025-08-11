@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.notebook.app-mergeReleaseResources-57:/layout/note_item.xml",
+        "source": "com.example.notebook.app-main-59:/layout/note_item.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-mergeReleaseResources-57:/layout/activity_add_note.xml",
+        "source": "com.example.notebook.app-main-59:/layout/activity_add_note.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-mergeReleaseResources-57:/layout/activity_main.xml",
+        "source": "com.example.notebook.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-mergeReleaseResources-57:/layout/photo_item.xml",
+        "source": "com.example.notebook.app-main-59:/layout/photo_item.xml"
+    }
+]

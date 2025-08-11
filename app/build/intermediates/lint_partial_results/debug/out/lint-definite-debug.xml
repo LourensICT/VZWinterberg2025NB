@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.2" type="incidents">
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/note_item.xml"
+            line="23"
+            column="14"
+            startOffset="834"
+            endLine="23"
+            endColumn="23"
+            endOffset="843"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/note_item.xml"
+            line="58"
+            column="10"
+            startOffset="2118"
+            endLine="58"
+            endColumn="19"
+            endOffset="2127"/>
+    </incident>
+
+    <incident
+        id="UseCompoundDrawables"
+        severity="warning"
+        message="This tag and its children can be replaced by one `&lt;TextView/>` and a compound drawable">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/note_item.xml"
+            line="68"
+            column="10"
+            startOffset="2478"
+            endLine="68"
+            endColumn="22"
+            endOffset="2490"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/note_item.xml"
+            line="78"
+            column="14"
+            startOffset="2858"
+            endLine="78"
+            endColumn="23"
+            endOffset="2867"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/photo_item.xml"
+            line="8"
+            column="6"
+            startOffset="268"
+            endLine="8"
+            endColumn="15"
+            endOffset="277"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/notebook/ui/PhotoAdapter.kt"
+            line="20"
+            column="9"
+            startOffset="586"
+            endLine="20"
+            endColumn="31"
+            endOffset="608"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.16.0">
+        <fix-replace
+            description="Change to 1.16.0"
+            family="Update versions"
+            oldString="1.9.0"
+            replacement="1.16.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="45"
+            column="20"
+            startOffset="947"
+            endLine="45"
+            endColumn="50"
+            endOffset="977"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.6.1"
+            replacement="1.7.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="46"
+            column="20"
+            startOffset="997"
+            endLine="46"
+            endColumn="56"
+            endOffset="1033"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.8.0 is available: 1.12.0">
+        <fix-replace
+            description="Change to 1.12.0"
+            family="Update versions"
+            oldString="1.8.0"
+            replacement="1.12.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="47"
+            column="20"
+            startOffset="1053"
+            endLine="47"
+            endColumn="64"
+            endOffset="1097"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1">
+        <fix-replace
+            description="Change to 2.2.1"
+            family="Update versions"
+            oldString="2.1.4"
+            replacement="2.2.1"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="48"
+            column="20"
+            startOffset="1117"
+            endLine="48"
+            endColumn="70"
+            endOffset="1167"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.6.1 is available: 2.9.2">
+        <fix-replace
+            description="Change to 2.9.2"
+            family="Update versions"
+            oldString="2.6.1"
+            replacement="2.9.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="49"
+            column="20"
+            startOffset="1187"
+            endLine="49"
+            endColumn="69"
+            endOffset="1236"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.6.1 is available: 2.9.2">
+        <fix-replace
+            description="Change to 2.9.2"
+            family="Update versions"
+            oldString="2.6.1"
+            replacement="2.9.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="50"
+            column="20"
+            startOffset="1256"
+            endLine="50"
+            endColumn="70"
+            endOffset="1306"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-fragment-ktx than 2.5.3 is available: 2.9.3">
+        <fix-replace
+            description="Change to 2.9.3"
+            family="Update versions"
+            oldString="2.5.3"
+            replacement="2.9.3"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="51"
+            column="20"
+            startOffset="1326"
+            endLine="51"
+            endColumn="71"
+            endOffset="1377"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-ui-ktx than 2.5.3 is available: 2.9.3">
+        <fix-replace
+            description="Change to 2.9.3"
+            family="Update versions"
+            oldString="2.5.3"
+            replacement="2.9.3"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="52"
+            column="20"
+            startOffset="1397"
+            endLine="52"
+            endColumn="65"
+            endOffset="1442"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-runtime than 2.5.0 is available: 2.7.2">
+        <fix-replace
+            description="Change to 2.7.2"
+            family="Update versions"
+            oldString="2.5.0"
+            replacement="2.7.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="55"
+            column="20"
+            startOffset="1484"
+            endLine="55"
+            endColumn="54"
+            endOffset="1518"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-ktx than 2.5.0 is available: 2.7.2">
+        <fix-replace
+            description="Change to 2.7.2"
+            family="Update versions"
+            oldString="2.5.0"
+            replacement="2.7.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="56"
+            column="20"
+            startOffset="1538"
+            endLine="56"
+            endColumn="50"
+            endOffset="1568"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.room:room-compiler than 2.5.0 is available: 2.7.2">
+        <fix-replace
+            description="Change to 2.7.2"
+            family="Update versions"
+            oldString="2.5.0"
+            replacement="2.7.2"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="57"
+            column="10"
+            startOffset="1578"
+            endLine="57"
+            endColumn="45"
+            endOffset="1613"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-location than 21.0.1 is available: 21.3.0">
+        <fix-replace
+            description="Change to 21.3.0"
+            family="Update versions"
+            oldString="21.0.1"
+            replacement="21.3.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="60"
+            column="20"
+            startOffset="1659"
+            endLine="60"
+            endColumn="74"
+            endOffset="1713"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-maps than 18.1.0 is available: 19.2.0">
+        <fix-replace
+            description="Change to 19.2.0"
+            family="Update versions"
+            oldString="18.1.0"
+            replacement="19.2.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="61"
+            column="20"
+            startOffset="1733"
+            endLine="61"
+            endColumn="70"
+            endOffset="1783"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.github.bumptech.glide:glide than 4.15.1 is available: 4.16.0">
+        <fix-replace
+            description="Change to 4.16.0"
+            family="Update versions"
+            oldString="4.15.1"
+            replacement="4.16.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="64"
+            column="20"
+            startOffset="1838"
+            endLine="64"
+            endColumn="60"
+            endOffset="1878"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.viewpager2:viewpager2 than 1.0.0 is available: 1.1.0">
+        <fix-replace
+            description="Change to 1.1.0"
+            family="Update versions"
+            oldString="1.0.0"
+            replacement="1.1.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="71"
+            column="20"
+            startOffset="2067"
+            endLine="71"
+            endColumn="58"
+            endOffset="2105"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.0 is available: 1.4.0">
+        <fix-replace
+            description="Change to 1.4.0"
+            family="Update versions"
+            oldString="1.3.0"
+            replacement="1.4.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="74"
+            column="20"
+            startOffset="2146"
+            endLine="74"
+            endColumn="62"
+            endOffset="2188"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.1.5"
+            replacement="1.3.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="83"
+            column="31"
+            startOffset="2425"
+            endLine="83"
+            endColumn="62"
+            endOffset="2456"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.5.1"
+            replacement="3.7.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="84"
+            column="31"
+            startOffset="2487"
+            endLine="84"
+            endColumn="75"
+            endOffset="2531"/>
+    </incident>
+
+</incidents>

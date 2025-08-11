@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_text.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_text.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_add.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_close.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/layout_note_item.xml.flat",
+        "source": "com.example.notebook.app-main-59:/layout/note_item.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_circle_background.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.notebook.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_location.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/xml_backup_rules.xml.flat",
+        "source": "com.example.notebook.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/layout_photo_item.xml.flat",
+        "source": "com.example.notebook.app-main-59:/layout/photo_item.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/layout_activity_add_note.xml.flat",
+        "source": "com.example.notebook.app-main-59:/layout/activity_add_note.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/xml_file_paths.xml.flat",
+        "source": "com.example.notebook.app-main-59:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_image.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_image.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/drawable_ic_camera.xml.flat",
+        "source": "com.example.notebook.app-main-59:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.example.notebook.app-merged_res-58:/layout_activity_main.xml.flat",
+        "source": "com.example.notebook.app-main-59:/layout/activity_main.xml"
+    }
+]
